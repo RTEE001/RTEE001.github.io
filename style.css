@@ -114,7 +114,7 @@ h4 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 300;
     margin: 20px 0;
 }
@@ -146,7 +146,7 @@ a,
 li {
     font-family: 'Lato', Helvetica, sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
     color: #e4e3e8;
 }
 
@@ -354,7 +354,7 @@ li:before {
 .social_icons a {
     font-size: 35px;
     text-decoration: none;
-    color: #000507;
+    color: #48DA9B;
     padding: 0;
     padding: 0 5px;
 }
@@ -384,11 +384,12 @@ li:before {
 
 .profile_quote {
     position: relative;
+    line-height: 1.35;
 }
 
 .profile_quote p {
-    font-size: 17px;
-    width: 455px;
+    font-size: 18px;
+    width: 600px;
 }
 
 .profile_quote .entypo-quote {
@@ -407,11 +408,14 @@ li:before {
 
 .experience_content p {
     margin: 0;
-    width: 370px;
-    float: left;
 }
 
-.experience_content ul {
-    float: left;
-    padding-left: 40px;
+.inner-content {
+   padding-bottom: 30px;
 }
+
+.linkedin {
+
+    color: yellow;
+}
+
